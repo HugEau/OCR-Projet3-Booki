@@ -125,6 +125,7 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
+    gap: 10px;
 }
 
 .infoTxt h1 {
@@ -155,7 +156,6 @@ nav a:hover {
 form {
     display: flex;
     align-items: center;
-    margin-bottom: 35px;
 }
 
 i.fa-solid.fa-location-dot {
@@ -172,6 +172,9 @@ input {
     height: 20px;
     padding: 14px 24px;
     border: 1px solid #F2F2F2;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ::placeholder {
@@ -210,7 +213,6 @@ i.fa-solid.fa-magnifying-glass {
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-bottom: 35px;
 }
 
 .FiltreRow p {
@@ -327,11 +329,12 @@ a {
 }
 
 .hebergements-cards .card-title {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .hebergements-cards .card-subtitle {
     margin: 0;
+    margin-bottom: 4px;
 }
 
 .hebergements-cards .card-rating {
@@ -400,6 +403,7 @@ h3 {
 
 .populaires-cards .card-subtitle {
     margin: 0;
+    font-size: 14px;
 }
 
 .populaires-cards .card-rating {
@@ -414,7 +418,6 @@ h3 {
     margin-top: 50px;
     margin-bottom: 35px;
     border: 1px solid transparent;
-    gap: 30px;
 }
 
 .presentationCards {
@@ -427,7 +430,6 @@ h3 {
 
 .presentationCards section {
     margin-top: 30px;
-    border: 1px solid transparent;
     border-radius: 20px 20px 20px 20px;
     display:flex;
     flex-direction: column;  
@@ -449,6 +451,7 @@ h3 {
 
 .presentationCards h3 {
     color: #000;
+    padding: 0 10px;
     /* Card/Title */
     font-family: Raleway;
     font-size: 1em;
@@ -598,6 +601,7 @@ footer {
     .main-container {
         width: 100%;
         max-width: 768px;
+        min-width: 100%;
         margin: 30px 0 0 0;
         padding: 0;
         box-sizing: border-box;
@@ -678,11 +682,11 @@ footer {
     }
 
     .FiltreRow2 {
-        width: 115px;
+        width: 95px;
     }
 
     .FiltreRow2 p {
-        font-size: 14px;
+        font-size: 12px;
         
     }
     
@@ -704,8 +708,9 @@ footer {
     }
     .hebergements-cards {
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
+        align-content: center;
         gap:30px;
     }
 
