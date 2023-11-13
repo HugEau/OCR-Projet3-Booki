@@ -96,6 +96,16 @@ nav a:hover {
     border-top: 2px solid #0065FC;
 }
 
+#hbBtn {
+    color: black;
+    border-top: 2px solid transparent;
+}
+
+#hbBtn:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -434,7 +444,7 @@ h3 {
     display:flex;
     flex-direction: column;  
     width: 23.24%;
-    box-shadow: 0 0 20px #0000002e;
+    box-shadow: 0 3px 15px #0000002e;
 }
 
 .presentationCards section img{
@@ -625,6 +635,11 @@ footer {
         border-top: none;
         border-bottom: 2px solid #0065FC;
     }
+    
+    #hbBtn:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
 
     .Link-Container {
         display: flex;
@@ -717,6 +732,10 @@ footer {
     .Hcard {
         width: 325px;
     }
+    
+    .AfficherPlus p{
+        margin: 0;
+    }
 
     .populaires {
         width: 100%;
@@ -762,15 +781,17 @@ footer {
     footer { 
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     
     .footerColumn {
         justify-content: center;
         width: 100%;
+        margin: 0 0 0;
+        padding: 0;
     }
-
-    .footerColumn h4 h5 {
-        padding-left: 30px;
+    
+    .footerColumn h4,h5 {
+        margin-left: 30px;
     }
-
 }
