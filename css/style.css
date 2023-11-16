@@ -22,11 +22,12 @@ h1 {
 body {
     display: flex;
     justify-content: center;
+    max-width: 1440px;
+    min-width: 320px;
 }
 
 .main-container {
     width: 100%;
-    max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -726,15 +727,14 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
-        gap:30px;
+    }
+    
+    .hebergements-cards .Hcard,  {
+        margin-top: 15px;
     }
 
     .Hcard {
         width: 325px;
-    }
-    
-    .AfficherPlus p{
-        margin: 0;
     }
 
     .populaires {
@@ -745,6 +745,11 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+    
     .hebergements-and-populaires section {
         border-radius: 0px;
     }
@@ -757,7 +762,7 @@ footer {
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 325px;
-
+        margin: 0;
     }
 
     .presentationCards {
@@ -766,10 +771,12 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        gap: 15px;
     }
     
     .activities h2 {
         padding-left:20px; 
+        margin-bottom: 30px;
     }
     
     .presentationCards section img {
