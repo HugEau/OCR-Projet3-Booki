@@ -690,17 +690,18 @@ footer {
     .Filtre-Container {
         width: 100%;
         flex-wrap: wrap;
-        justify-content: normal;  
+        justify-content: normal;
         margin-bottom: 35px;
         justify-content: center;
     }
 
     .FiltreRow {
-        margin: 0px 20px;
+        margin: 0;
     }
 
     .FiltreRow2 {
-        width: 95px;
+        width: 35%;
+        padding: 15px 10px;
     }
 
     .FiltreRow2 p {
@@ -736,7 +737,7 @@ footer {
     }
 
     .Hcard {
-        width: 325px;
+        width: 100%;
     }
 
     .populaires {
@@ -763,7 +764,7 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 325px;
+        width: 87%;
         margin: 0;
     }
 
